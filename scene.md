@@ -5,7 +5,6 @@
 
 ```json
 {
-  "labels":{
     "chapter1": [
       {
         "pr": "Привет! Давненько не виделись",
@@ -40,34 +39,13 @@
         "right": "chapter2"
 
       }
-  ]
-  },
-  "assets": {
-      "images": [
-        "/background.png",
-        "/right_ladya.png",
-        "/lusil.png",
-        "/hero_room.png"
-      ],
-      "audio": [
-          "/song1.mp3"
-      ]
-  },  
-  "characters": [
+  ],
+  "assets": [
     {
-      "aliase": "pr",
-      "name": "Профессор",
-      "color": "green"
-    },
-    {
-      "aliase": "al",
-      "name": "Алиса",
-      "color": "red"
-    },
-    {
-      "aliase": "ll",
-      "name": "Люсиль",
-      "color": "grey"
+      "name": "background", 
+      "extname": ".png", 
+      "size": "14kb", 
+      "path": "/background.png"
     }
   ]
 }
