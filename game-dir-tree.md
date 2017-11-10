@@ -7,20 +7,8 @@ public/game
 │   ├── prof_norm.png
 │   └── errors.mp3
 ├── icons
-│   ├── favicon.png 
+│   ├── favicon.png
 │   └── logo32x32.png
-├── plugins
-│   ├── character.js
-│   ├── background.js
-│   ├── audio.js
-│   ├── sound.js
-│   ├── center.js
-│   ├── [name].js
-│   ├── scene.js
-│   ├── show.js
-│   ├── timer.js
-│   ├── memory-card.js
-│   └── game-over.js
 ├── scenes
 │   ├── ru-RU
 │   │   ├── start.json
@@ -29,6 +17,7 @@ public/game
 │       ├── start.json
 │       └── lab.json
 ├── style.css
+├── plugins.bundle.js
 └── screens.html
 
 ```
