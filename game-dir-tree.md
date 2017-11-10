@@ -1,4 +1,4 @@
-#### Файловая структура визуальной новеллы
+### The file structure of the Visual Novel
 
 ```plane_text
 public/game
@@ -7,20 +7,20 @@ public/game
 │   ├── prof_norm.png
 │   └── errors.mp3
 ├── icons
-│   ├── favicon.ico 
+│   ├── favicon.png 
 │   └── logo32x32.png
 ├── plugins
-│   ├── aliase.js
-│   ├── debug.js
+│   ├── character.js
+│   ├── background.js
 │   ├── audio.js
 │   ├── sound.js
 │   ├── center.js
-│   ├── right.js
+│   ├── [name].js
 │   ├── scene.js
 │   ├── show.js
-│   ├── snake.js
-│   ├── blimb.js
-│   └── left.js
+│   ├── timer.js
+│   ├── memory-card.js
+│   └── game-over.js
 ├── scenes
 │   ├── ru-RU
 │   │   ├── start.json
@@ -29,6 +29,6 @@ public/game
 │       ├── start.json
 │       └── lab.json
 ├── style.css
-└── layers.html
+└── screens.html
 
 ```
