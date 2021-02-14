@@ -5,10 +5,11 @@ _`input`__
 scenes
 ├───start
 │   ├───assets
-│   |   ├───background.png
+│   │   ├───background.png
 │   │   └───audio1.mp3
-│   ├───entry.yaml
+│   ├───characters.yaml
 │   ├───chapter1.yaml
+│   ├───entry.yaml
 │   └───label2.yaml    
 ├───lab
 ```
@@ -73,12 +74,19 @@ game
 ```
 ## The scene is assembled from chunks of YAML
 
->__characters.yml__
+>__`characters.yaml`__
 ```yaml
-- al: Alice
-- jn: John
+- name: al      #require
+  text: Alice   #require
+  age: 17       #user params
+  color: azure  #user params
+
+- name: j
+  text: John
+  age: 21
+  color: red
 ```
->__label.yml__
+>__`label.yml`__
 ```yaml
 - Hello world!
 - alert: This is work!
@@ -91,7 +99,7 @@ game
 
 
 ```
->__-10label.yml__
+>__`-10label.yml`__
 ```yaml
 - alert: Game Over!
   point: -10

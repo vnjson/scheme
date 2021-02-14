@@ -1,0 +1,55 @@
+{
+  "assets": [
+    {
+      "name": "battle-field",
+      "url": "/assets/battle-field.png"
+    }
+  ],
+  "chapter1": [
+    {
+      "pr": "Привет! Давненько не виделись",
+      "scene": "background",
+      "left": "right_ladya"
+    },
+    {
+      "al": "Да уж, давненько.",
+      "right": "lusil"
+    },
+    {
+      "al": "Лагдно пошли в лабараторию"
+    },
+    {
+      "jump": "chapter2"
+    }
+  ],
+  "chapter2": [
+    {
+      "al": "И как это понимать? Разве мы не должны позабо",
+      "scene": "bg"
+    },
+    {
+      "pr": "Где лежит та черта",
+      "left": "prof_norm"
+    },
+    {
+      "al": "Лагдно пошли в лабараторию"
+    },
+    {
+      "alert": "Game over!"
+    }
+  ],
+  "characters": [
+    {
+      "name": "al",
+      "text": "Alice",
+      "age": 17,
+      "color": "azure"
+    },
+    {
+      "name": "j",
+      "text": "John",
+      "age": 21,
+      "color": "red"
+    }
+  ]
+}
