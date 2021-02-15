@@ -35,7 +35,7 @@ vnjs.on('print', data=>{
 	console.log(data)
 });
 vnjs.on('alert', data=>{
-	console.log(arg.msg+arg.param)
+	alert(data.msg+data.param)
 });
 
 ````
